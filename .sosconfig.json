@@ -1,0 +1,29 @@
+{
+	"name": "sosRunner",
+	"version": "1.0.0",
+	"description": "Background color change ",
+	"platforms": {
+		"default": {
+			"rootDir": "default",
+			"mainFile": "index.js",
+			"runtime": "browser"
+		},
+		"tizen": {
+			"rootDir": "tizen",
+			"mainFile": "index.js",
+			"runtime": "browser"
+		},
+		"webos": {
+			"rootDir": "webos",
+			"mainFile": "index.js",
+			"runtime": "browser"
+		}
+	},
+	"configDefinition": [
+		{
+			"name": "testing",
+			"description": "Testing string",
+			"valueType": "string"
+		}
+	]
+}

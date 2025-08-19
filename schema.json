@@ -1,0 +1,37 @@
+{
+	"input": [
+		{
+        "name": "myBaseUrl",
+        "valueType": "url",
+        "description": "A base URL to My cloud. No slash at the end required.",
+        "placeholder": "https://api.signageos.io"
+      },
+      {
+        "name": "refreshIntervalMs",
+        "valueType": "number",
+        "description": "Frequency of trying to generate new playlist from My cloud in milliseconds.",
+        "placeholder": "65000",
+        "min": 60000,
+        "max": 70000
+      }
+	],
+	"output": [
+		{
+			"name": "resolution",
+			"description": "Resolution output",
+			"valueType": "string"
+		}
+	],
+    "telemetry": [
+        {
+            "name": "saturation",
+            "description": "Saturation telemetry",
+            "valueType": "number"
+        },
+        {
+            "name": "brightness",
+            "description": "Brightness telemetry",
+            "valueType": "number"
+        }
+    ]
+}
